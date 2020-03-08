@@ -1,0 +1,44 @@
+body {
+
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* this will apply styles to anything in our html which has this class */
+.thepen {
+  background-image: url(the-pen.svg);
+}
+.ismightier {
+  background-image: url(is-mightier.svg);
+  background-color: #000000;
+}
+
+.than {
+  background-image: url(than.svg);
+}
+
+.thesword {
+  background-image: url(the-sword.svg);
+  background-color: #000000;
+}
+
+.end {
+  background-image: url(end.svg);
+  background-color: #00f10a;
+}
+
+footer {
+  position: fixed;
+  bottom: 30px;
+  width: 40px;
+  left: 50%;
+  margin-left: -20px;
+}
+
